@@ -55,9 +55,7 @@ That's it! Just make sure you give the correct path in the `xlink:href` attribut
 
 Check the `test-external.html` for a working example. This will **not** work in Internet Explorer (up to version 11 tested). Please check the above article if you want IE support.
 
-```
 If you open the test-external.html file directly in your browser, the icons appear in Firefox but, for security reasons, not in Chrome or Opera. However, if you use a web server, Chrome and Opera will work as expected.
-```
 
 ## Use only the icons needed
 
