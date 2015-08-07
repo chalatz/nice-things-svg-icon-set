@@ -45,7 +45,7 @@ As said above, the `nice-things.svg` is quite large. Fortunately, you can use th
 
 In order to do that, just have the `nice-things.svg` lying around and use the following code:
 
-```
+```html
 <svg class="icon">
     <use xlink:href="nice-things.svg#icon-toy-robot"></use>
 </svg> 
@@ -55,13 +55,17 @@ That's it! Just make sure you give the correct path in the `xlink:href` attribut
 
 Check the `test-external.html` for a working example. This will **not** work in Internet Explorer (up to version 11 tested). Please check the above article if you want IE support.
 
+```
+If you open the test-external.html file directly in your browser, the icons appear in Firefox but, for security reasons, not in Chrome or Opera. However, if you use a web server, Chrome and Opera will work as expected.
+```
+
 ## Use only the icons needed
 
 If you want the `nice-things.svg` file to include just the icons you need, just copy the files you want from the `svgo` folder to the `svgo_live` folder and run the Grunt task. This task looks inside the `svgo_live` folder and creates `nice-things.svg`. If you don't know what Grunt is, [this is a good place to start](https://24ways.org/2013/grunt-is-not-weird-and-hard/ "Grunt for People Who Think Things Like Grunt are Weird and Hard").
 
 If you want to add another icon later, copy it inside the `svgo_live` folder and run the Grunt task again.
 
-The Gruntfile.js and the package.json files are included in the repo.
+The `Gruntfile.js` and the `package.json` files are included in the repo.
 
 ## Folders and Files
 
