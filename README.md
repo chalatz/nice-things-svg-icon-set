@@ -6,11 +6,11 @@ I wanted to use the icons as SVG icons, so I took the time and converted the ico
 
 ## The Process Used
 
-I opened the the file in Illustrator and exported every icon to an SVG file. You can find these files inside the `svg` folder. Please keep in mind that these files are unptimized, just as they were exported by Illustrator.
+I opened the file in Illustrator and exported every icon to an SVG file. You can find these files inside the `svg` folder. Please keep in mind that these files are unoptimized, just as they were exported by Illustrator.
 
 Then I used [SVGO](https://github.com/svg/svgo/ "SVGO") to have the SVG files optimized. They can be found inside the `svgo` folder.
 
-In order to create the single SVG file that contains the definitions of all the icons, I used [Grunt SVG store](https://github.com/FWeinb/grunt-svgstore "Grunt SVG store"). This file is named `nice-things.svg`. The Gruntfile.js and the package.json files are included in the repo.
+In order to create the single SVG file that contains the definitions of all the icons, I used [Grunt SVG store](https://github.com/FWeinb/grunt-svgstore "Grunt SVG store"). This file is named `nice-things.svg`.
 
 ## Usage
 
@@ -20,16 +20,16 @@ As said above, the file with the icons' definitions is `nice-things.svg`. You ca
 
 ### Inline
 
-In this case, you have to have the code of `nice-things.svg` in your code. Just open `nice-things.svg` with a text editor, copy its contents and paste them inside your HTML file, preferably right after the `<body>` tag.
+In this case, you have to have the code of `nice-things.svg` in your HTML code. Just open `nice-things.svg` with a text editor, copy its contents and paste them inside your HTML file, preferably right after the `<body>` tag.
 
 **Important!** If you choose the inline way, don't forget to add `style="display: none"` as an attribute to the outer `<svg>` tag. Check the `test-inline.html` for a working example.
 
 **Keep in mind!**
-The  `nice-things.svg` file is quite large, close to 1.5MB. That's because the icons are quite detailed and that comes to a cost. If you paste its contents inside an HTML file you work on, there is a chance your text editor will slow down or even crash. Also, you may find it difficult to keep working on a file with a such a considerable amount of code inside.
+The  `nice-things.svg` file is quite large, over 1.5MB. That's because the icons are quite detailed and that comes to a cost. If you paste its contents inside an HTML file you work on, there is a chance your text editor will slow down or even crash. Also, you may find it difficult to keep working on a file with a such a considerable amount of code inside.
 
 If you use a server-side language or any other tool that allows you to include files (static site generators, mixture, codekit, etc), you can just include `nice-things.svg` to make your life easier.
 
-Now, if you want to use the toy-robot icon, use the following code:
+Now, if you want to use, say, the toy-robot icon, use the following code:
 
 ```html
 <svg>
@@ -61,17 +61,19 @@ If you want the `nice-things.svg` file to include just the icons you need, just 
 
 If you want to add another icon later, copy it inside the `svgo_live` folder and run the Grunt task again.
 
+The Gruntfile.js and the package.json files are included in the repo.
+
 ## Folders and Files
 
 **svg:** Folder with all the icons in svg format. Each icon has its own file. These files are **unoptimized**, just as they were exported by Illustrator.
 
 **svgo:** Folder with all the icons in svg format. Each icon has its own file. These files are **optimized**, with the help of [SVGO](https://github.com/svg/svgo/ "SVGO").
 
-**svgo_live** Please check the *Use only the icons needed* section for understanding the use of this folder.
+**svgo_live:** Please check the *Use only the icons needed* section for understanding the use of this folder.
 
-**test-inline.html** A test using the inline way.
+**test-inline.html:** A test using the inline way.
 
-**test-external.html** A test using the external source way.
+**test-external.html:** A test using the external source way.
 
 **Gruntfile.js**, **package.json**: Your Grunt stuff.
 
