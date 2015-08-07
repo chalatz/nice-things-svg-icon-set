@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64.1px" height="43.4px" viewBox="0 0 64.1 43.4" enable-background="new 0 0 64.1 43.4" xml:space="preserve">
+<rect x="30.2" y="37" fill="#4F4C4D" width="3.7" height="5.3"/>
+<g>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="30.2" y="38.7" width="3.8" height="1.2"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<rect x="30.2" y="38.7" clip-path="url(#SVGID_2_)" fill="#353132" width="3.7" height="1.2"/>
+	</g>
+</g>
+<rect x="0" fill="#4F4C4D" width="64.1" height="37.8"/>
+<path fill="#393536" d="M0,37.7l32.1-0.1l32.1,0.1v0.2c-2.7,0.3-5.3,0.4-8,0.7l-8,0.4c-5.3,0.2-10.7,0.3-16,0.3
+	c-5.3,0-10.7-0.1-16-0.3l-8-0.4c-2.7-0.2-5.3-0.4-8-0.7V37.7z"/>
+<polygon fill="#231F20" points="2.1,34.8 2.1,35.1 62,35.1 62,1.4 61.6,1.4 "/>
+<polygon fill="#2A2627" points="2.1,1.4 2.1,34.8 61.6,1.4 "/>
+<rect x="28.8" y="36" fill="#E9E9E9" width="6.5" height="0.7"/>
+<path fill="#B52126" d="M61.3,36.4c0,0.2,0.2,0.4,0.4,0.4s0.4-0.2,0.4-0.4S61.8,36,61.6,36S61.3,36.2,61.3,36.4"/>
+<path fill="#DA9093" d="M61.3,36.3c0,0.1,0.1,0.1,0.1,0.1s0.1-0.1,0.1-0.1c0-0.1-0.1-0.1-0.1-0.1S61.3,36.2,61.3,36.3"/>
+<rect x="19.9" y="42.4" fill="#353132" width="24" height="1"/>
+</svg>
